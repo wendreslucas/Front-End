@@ -104,3 +104,29 @@ footer{
     font-size:13px;
     margin-top:20px;
 }
+
+@media screen and (max-width:480px){
+    .caixa{
+        width: auto;
+    }
+
+    img {
+        width: 80%;
+    }
+
+    form:not(.checkbox){
+        width: 60%;
+        align-items: center;
+    }
+
+    .checkbox {
+        width:40%;
+    }
+
+    nav{
+        position:static;
+    }
+
+   
+        
+}
