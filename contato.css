@@ -1,3 +1,5 @@
+
+
 header {
     background: #bbbbbb;
     padding: 20px;
@@ -36,6 +38,7 @@ nav a:hover{
 }
 
 main {
+    
     width: 940px;
     margin: 0 auto;
 }

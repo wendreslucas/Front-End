@@ -54,7 +54,7 @@ nav a:hover{
 
 .principal {
     padding:3em 0;
-    background: #fefefe;
+    background: #F9FBFD;
     width: 940px;
     margin: 0 auto; 
 }
@@ -74,7 +74,7 @@ p{
 
 .principal{
     padding: 3em 0;
-    background:#fefefe;
+    background:#F9FBFD;
 }
 
 .principal strong{
@@ -93,7 +93,7 @@ p{
 
 .mapa {
     padding:3em 0;
-    background: linear-gradient(#fefefe, #888888);
+    background: linear-gradient(#F9FBFD, #888888);
     
 }
 
