@@ -262,6 +262,11 @@ body {
     margin-right: 8px;    
 }
 
+.cartao__info--moeda::before {
+    content: "\e905";
+    margin-right: 8px;    
+}
+
 .cartao__info--visualizacao::before {
     content: "\e90f";
     margin-right: 8px;    
