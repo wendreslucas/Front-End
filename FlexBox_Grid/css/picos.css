@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+body {
+    background-color: #1D232A;
+    font-family: 'Open Sans', 'icones', sans-serif;
+    color: #FFFFFF;
+}
+
+.principal {
+    padding: 24px 16px;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 16px;
+}
+
+.titulo-pagina {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.titulo-secao {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.cartao {
+    width: 100%;
+    border-radius: 15px;
+    /* overflow: hidden; */
+    background-color: #2C343A;
+}
+
+.cartao--destaque {
+    margin-bottom: 16px;
+}
+
+.cartao__destaque {
+    grid-row:span 2;
+}
