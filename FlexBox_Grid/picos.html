@@ -21,7 +21,7 @@
         <button class="cabecalho__notificacao" aria-label="Notificacao"><i></i> </button>
     </header>
     <nav class="menu-lateral">
-        <img src="img/logo.svg" alt="Logotipo da HZC" class="menu-lateral__logo">
+        <a href="index.html"><img src="img/logo.svg" alt="Logotipo da HZC" class="menu-lateral__logo"></a>
         <a href="index.html" class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo">Inicio</a>
         <a href="videos.html" class="menu-lateral__link menu-lateral__link--videos">Videos</a>
         <a href="picos.html" class="menu-lateral__link menu-lateral__link--picos">Picos</a>
@@ -46,28 +46,33 @@
             <a href="#" class="cartao__link">Ver Todos</a>
             <ul class="cartao__lista">
                 <li class="cartao__item">
-                    <img src="img/miniatura_1.png" alt="Thumbnail" class="cartao__item-thumbnail">
-                    <h4 class="cartao__item-titulo">HZC - Love Machine</h4>
+                    <img src="img/favoritos_1.png" alt="Thumbnail" class="cartao__item-thumbnail">
+                    <h4 class="cartao__item-titulo">Wallride da FGP</h4>
                     <p class="cartao__item-perfil">Júlia Fonseca</p>
                 </li>
                 <li class="cartao__item">
-                    <img src="img/miniatura_2.png" alt="Thumbnail" class="cartao__item-thumbnail">
-                    <h4 class="cartao__item-titulo">HZC - Vol.3</h4>
+                    <img src="img/favoritos_2.png" alt="Thumbnail" class="cartao__item-thumbnail">
+                    <h4 class="cartao__item-titulo">Borda de Valores</h4>
                     <p class="cartao__item-perfil">Júlia Fonseca</p>
                 </li>
                 <li class="cartao__item">
-                    <img src="img/miniatura_3.png" alt="Thumbnail" class="cartao__item-thumbnail">
-                    <h4 class="cartao__item-titulo">HZC - Pescaria na Urca</h4>
+                    <img src="img/favoritos_3.png" alt="Thumbnail" class="cartao__item-thumbnail">
+                    <h4 class="cartao__item-titulo">Wallride do Rebouças</h4>
                     <p class="cartao__item-perfil">Júlia Fonseca</p>
                 </li>
                 <li class="cartao__item">
-                    <img src="img/miniatura_4.png" alt="Thumbnail" class="cartao__item-thumbnail">
-                    <h4 class="cartao__item-titulo">Vidalocagi - Guerreiros do Asfalto</h4>
+                    <img src="img/favoritos_4.png" alt="Thumbnail" class="cartao__item-thumbnail">
+                    <h4 class="cartao__item-titulo">Segundo setor da Praça Mauá</h4>
                     <p class="cartao__item-perfil">Júlia Fonseca</p>
                 </li>
                 <li class="cartao__item">
-                    <img src="img/miniatura_5.png" alt="Thumbnail" class="cartao__item-thumbnail">
-                    <h4 class="cartao__item-titulo">Vidalocagi - Não importa</h4>
+                    <img src="img/favoritos_5.png" alt="Thumbnail" class="cartao__item-thumbnail">
+                    <h4 class="cartao__item-titulo">Borda de Valores</h4>
+                    <p class="cartao__item-perfil">Júlia Fonseca</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="img/favoritos_6.png" alt="Thumbnail" class="cartao__item-thumbnail">
+                    <h4 class="cartao__item-titulo">Wallride do Rebouças</h4>
                     <p class="cartao__item-perfil">Júlia Fonseca</p>
                 </li>
             </ul>
@@ -75,12 +80,12 @@
         <section class="secao secao-picos">
             <h3 class="titulo-secao">Mais Visitados</h3>
             <article class="cartao">
-                <img src="img/visitados_1.png" alt="Pico 1" class="cartao__imagem" />
+                <a href="detalhe.html"><img src="img/visitados_1.png" alt="Pico 1" class="cartao__imagem"/></a>
                 <div class="cartao__conteudo">
                     <p class="cartao__perfil">Bruno Lopes</p>
-                    <h3 class="cartao__titulo">Gap do Itaú da Voluntários da Pátria</h3>
+                    <h3 class="cartao__titulo"><a href="detalhe.html">Gap do Itaú da Voluntários da Pátria</a></h3>
                     <p class="cartao__info cartao__info--Visualizacao">53 visualizações</p>
-                    <button class="cartao__botao cartao__botao--local aria-label=" Ver Agora"></button>
+                    <button onclick="window.location.href = 'detalhe.html'" class="cartao__botao cartao__botao--local aria-label="Ver Agora"></button>
                 </div>
             </article>
             <article class="cartao">
