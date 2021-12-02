@@ -9,7 +9,7 @@ body {
     color: #FFFFFF;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
     body {
         display: grid;
         grid-template-columns: auto 1fr;
@@ -43,7 +43,7 @@ body {
     display: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
     .cabecalho {
         background-color: #1D232A;
         display: grid;
@@ -162,7 +162,7 @@ body {
     content: "\e90a";
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
     .menu-lateral {
         position: static;
         width: 200px;
@@ -187,16 +187,14 @@ body {
     font-weight: 700;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
     .principal {
         display: grid;
         grid-template-columns: auto 1fr auto;
         grid-template-areas: 
             "titulo-pagina titulo-pagina titulo-pagina"
-            "destaque-picos destaque-picos picos-recentes"
-            "secao-picos secao-picos secao-picos"
-            "produtos-recentes destaque-produtos destaque-produtos"
-            "secao-produtos secao-produtos secao-produtos"       
+            "destaque-pico destaque-pico favoritos"
+            "secao-picos secao-picos secao-picos"                 
         ;
         column-gap: 32px;
         padding: 16px 60px;
@@ -273,7 +271,7 @@ body {
     font-size: 24px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
     .cartao--destaque {
         margin-bottom: 0;
     }
@@ -347,32 +345,22 @@ body {
     gap: 16px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
     .secao {
         grid-template-columns: repeat(4, 1fr);
     }
 
-    .destaque-picos {
-        grid-area: destaque-video;
+    .destaque-pico {
+        grid-area: destaque-pico;
     }
     
-    .picos-recentes {
-        grid-area: picos-recentes;
+    .favoritos {
+        grid-area: favoritos;
     }
     
     .secao-picos {
         grid-area: secao-picos;
     }
     
-    .destaque-produtos {
-        grid-area: destaque-produtos;
-    }
-    
-    .produtos-recentes {
-        grid-area: produtos-recentes;
-    }
-    
-    .secao-produtos {
-        grid-area: secao-produtos;
-    }
+   
 }
