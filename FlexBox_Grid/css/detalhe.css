@@ -170,3 +170,74 @@ body {
         grid-row: 1 / span 2;
     }
 }
+
+.principal {
+    padding: 24px 16px;
+    display: grid;
+    gap: 16px;
+}
+
+.cartao {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #2C343A;
+}
+
+.cartao__imagem--desktop {
+    display: none;
+}
+
+.cartao--destaque {
+    margin-bottom: 16px;
+}
+
+.cartao__conteudo {
+    padding: 16px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+}
+
+.cartao__destaque {
+    grid-column: span 2;
+}
+
+.cartao__titulo {
+    font-size: 1.125rem;
+    font-weight: 700;
+    grid-column: span 2;
+    line-height: 24px;
+}
+
+.cartao__perfil {
+    color: #fff;
+    font-size: 1rem;
+    grid-column: span 2;
+    font-weight: 400;
+}
+
+.cartao__perfil::before {
+    content: "";
+    display: block;
+    position: static;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/profile_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.cartao__info {
+    display: flex;
+    line-height:24px;
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+.cartao__info--visualizacao::before {
+    content: "\e90f";
+    margin-right: 8px;    
+}
