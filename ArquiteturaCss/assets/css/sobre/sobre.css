@@ -1,12 +1,15 @@
-.sobre {
-    padding: 2.5rem;
+.sobre {    
     text-align: center;
 }
 
 @media (min-width:0) {
-
+    .sobre {
+        padding: 2.5rem 1rem;
+    }
 }
 
 @media (min-width:768px) {
-    
+    .sobre {
+        padding: 2.5rem;
+    }
 }
