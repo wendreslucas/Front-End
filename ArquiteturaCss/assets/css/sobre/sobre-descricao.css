@@ -4,3 +4,11 @@
     color: #8C8888;
     font-weight: 100;
 }
+
+@media (min-width:0) {
+
+}
+
+@media (min-width:768px) {
+    
+}
